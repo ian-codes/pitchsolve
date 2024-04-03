@@ -1,6 +1,5 @@
 ﻿using Domain.Abstractions;
 using Domain.Entities;
-using MediatR;
 
 namespace Domain.Events.ProblemEvents;
 

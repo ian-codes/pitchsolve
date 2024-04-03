@@ -1,17 +1,15 @@
 ﻿using Domain.Abstractions;
 using Domain.Events.ProblemEvents;
 using Domain.Events.SolutionEvents;
-using Domain.Interfaces;
-using MediatR;
 
 namespace Domain.Entities;
 
 /// <summary>
-/// BusinessEntity domain entity.
+/// Business domain entity.
 /// Type of a user.
 /// Inherits from abstract class <see cref="BaseUser"/>
 /// </summary>
-public sealed class BusinessEntity : BaseUser
+public sealed class Business : BaseUser
 {
     /// <summary>
     /// Constructor.
@@ -24,7 +22,7 @@ public sealed class BusinessEntity : BaseUser
     /// <param name="phone"></param>
     /// <param name="businessName"></param>
     /// <param name="businessAddress"></param>
-    public BusinessEntity(
+    public Business(
         DateTimeOffset createdAt
         , string firstName
         , string lastName

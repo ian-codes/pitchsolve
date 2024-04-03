@@ -1,6 +1,5 @@
 ﻿using Application.Dtos.Business;
 using Application.Interfaces;
-using Domain.Entities;
 using Domain.Interfaces;
 using MediatR;
 
@@ -15,7 +14,7 @@ public sealed class SignUpAsBusinessCommandHandler(IPasswordService passwordServ
     {
         var dto = request.BusinessSignUpDto;
         var hashedPass = passwordService.Hash(dto.Password);
-        var businessUserToBeCreated = new BusinessEntity(
+        var businessUserToBeCreated = new Domain.Entities.Business(
             DateTimeOffset.Now
             , dto.FirstName
             , dto.LastName

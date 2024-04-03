@@ -4,5 +4,5 @@ namespace Domain.Interfaces;
 
 public interface IBusinessRepository
 {
-    public Task<BusinessEntity> CreateNewBusinessUser(BusinessEntity newBusinessUser);
+    public Task<Business> CreateNewBusinessUser(Business newBusinessUser);
 }

@@ -7,7 +7,7 @@ using Application.Dtos.Publications.Problem;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace API.Endpoints;
+namespace API.Controllers;
 
 
 [ApiController]

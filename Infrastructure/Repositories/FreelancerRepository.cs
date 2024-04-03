@@ -1,4 +1,4 @@
-﻿namespace Persistence.Repositories;
+﻿namespace Infrastructure.Repositories;
 
 public class FreelancerRepository
 {

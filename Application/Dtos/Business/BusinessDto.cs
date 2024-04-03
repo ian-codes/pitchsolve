@@ -1,6 +1,4 @@
-﻿using Domain.Entities;
-
-namespace Application.Dtos.Business;
+﻿namespace Application.Dtos.Business;
 
 public class BusinessDto
 {
@@ -18,7 +16,7 @@ public class BusinessDto
     public string BusinessName { get; set; }
     
     
-    public static BusinessDto MapFromBusinessEntity(BusinessEntity business)
+    public static BusinessDto MapFromBusinessEntity(Domain.Entities.Business business)
     {
         return new BusinessDto(business.Guid, business.FirstName, business.LastName, business.BusinessName);
     }
