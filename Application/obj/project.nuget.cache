@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "m9MjxmgrOR5o9M1wIQlkERSs42x6FPm+t0pS+J+6q0qsNzteTip7yVal05OIIv0wK1E1vd9qSWw2kDyQn/yYyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\iankr\\Desktop\\Triage\\Dev\\Pitchsolve\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\iankr\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\iankr\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\iankr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
